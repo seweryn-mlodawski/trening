@@ -3,7 +3,16 @@ shopping_items = [
     "bułka",
     "ser feta",
     "masło",
-    "pomidor"
-]
+    "pomidor",
+    "chusteczki",
+    "papier toaletowy",
+    ]
 
-def shopp
+def shopping(items):
+    shopping_cart = "W koszyku znajdują się:\n"
+    for item in items:
+        shopping_cart += f"- {item}\n"
+    return shopping_cart
+
+basket = shopping(shopping_items)
+print(basket)
