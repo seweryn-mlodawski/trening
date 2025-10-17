@@ -16,3 +16,4 @@ def shopping(items):
 
 basket = shopping(shopping_items)
 print(basket)
+# ojej 
